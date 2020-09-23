@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/eimages"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMosque"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:onClick="searchClick"
+        android:layout_margin="5dp"
+        android:text="Search Mosque"/>
+    <Button
+        android:id="@+id/btnSchool"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:onClick="searchClick"
+        android:text="Search School"/>
+    <Button
+        android:id="@+id/btnHospital"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:onClick="searchClick"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:text="Search Hospital"/>
+    <Button
+        android:id="@+id/btnCriteria"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="criteriaClick"
+        android:text="Search By Criteria"/>
+    <Button
+        android:id="@+id/btnUsers"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="showUsers"
+        android:text="People Around me"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="logoutClick"
+        android:text="logout"/>
+
+</LinearLayout>

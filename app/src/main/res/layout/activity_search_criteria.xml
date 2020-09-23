@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/map1"
+    android:gravity="center"
+    tools:context=".SearchCriteriaActivity">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_margin="50dp"
+        android:background="@drawable/icon" />
+
+    <Spinner
+        android:id="@+id/spnBank"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn10"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"/>
+    <Spinner
+        android:id="@+id/spnBranch"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn10"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:visibility="gone"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:fontFamily="serif"/>
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:onClick="searchClick"
+        android:text="Search"/>
+
+
+</LinearLayout>

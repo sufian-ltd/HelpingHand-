@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/rvToolbar"
+        android:layout_weight="1"
+        tools:context="com.example.easymap3.MapsActivity"/>
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="bottom"
+        android:onClick="shareClick"
+        android:text="Share my location"/>
+
+</LinearLayout>

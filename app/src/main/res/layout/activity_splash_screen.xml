@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bimage"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity">
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="55dp"-->
+        <!--android:fontFamily="serif"-->
+        <!--android:text="Easy Map"-->
+        <!--android:textColor="#007cff"-->
+        <!--android:textSize="30sp" />-->
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/about"
+        android:background="@drawable/abnew"
+        android:layout_gravity="right"
+        android:layout_marginBottom="525dp"
+        android:onClick="about"
+        />
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/icon"
+        android:visibility="gone" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:layout_gravity="center"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:onClick="homeServiceClick"
+        android:text="home service"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:onClick="mapClick"
+        android:text="Go to map"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp" />
+
+</LinearLayout>

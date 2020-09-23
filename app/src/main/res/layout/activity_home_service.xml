@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/reg3"
+    tools:context=".HomeServiceActivity">
+
+    <RadioGroup
+        android:id="@+id/rgService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_margin="15dp">
+
+        <RadioButton
+            android:id="@+id/rbElectrician"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Electrician"
+            android:textColor="#Fff"
+            android:layout_margin="5dp"
+            android:textSize="17sp"
+            android:checked="true"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/rbPlamber"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Plumber"
+            android:layout_margin="5dp"
+            android:textColor="#Fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbAmbulance"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Ambulance"
+            android:layout_margin="5dp"
+            android:textColor="#Fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/rbDeliveryMan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Delivery Man"
+            android:layout_margin="5dp"
+            android:textColor="#Fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/rbHomeMaid"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Home Maid"
+            android:layout_margin="5dp"
+            android:textColor="#Fff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:onClick="newPostClick"
+        android:text="New Service Post"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="myPostClick"
+        android:textStyle="bold"
+        android:text="Service Provider Post"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="allPostClick"
+        android:textStyle="bold"
+        android:text="All Post"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="myRequestClick"
+        android:textStyle="bold"
+        android:text="My Request To"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="myAcceptedClick"
+        android:textStyle="bold"
+        android:text="My Accepted User"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="profileClick"
+        android:textStyle="bold"
+        android:text="My Profile"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:background="@drawable/btn10"
+        android:fontFamily="serif"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:onClick="logoutClick"
+        android:textStyle="bold"
+        android:text="logout"/>
+</LinearLayout>
